@@ -1,0 +1,424 @@
+/*font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+/*slick*/
+
+.slick-slide {
+    outline: none
+}
+
+
+.slick-dots li button:before {
+ font-family: 'slick';
+  font-size: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '■'; /* <-- Вот этот символ */
+  text-align: center;
+  opacity: 1;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+	color: #fcac45;
+    font-size: 24px;
+
+}
+
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 44px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+
+header {
+	background-color: #111111;
+	padding-top: 57px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
+.logo {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+.menu {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	padding-top: 7px;
+}
+
+li {
+	margin-left: 25px;
+}
+
+.main {
+	height: 560px;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.description {
+	color: #d5d5d5;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.downset {
+	height: 135px;
+	display: block;
+	text-align: center;
+}
+
+.fas {
+	    outline: none
+}
+
+i.fas {
+	font-size: 50px;
+	color: #c3c3c3;
+	text-align: center;
+	transition: 0.3s ;
+}
+
+i.fas:hover {
+	color: #fcac45;
+}
+
+button.btn, button.btn:hover {
+	background-color: #111111;
+	border: 0;
+	box-shadow: none;
+}
+
+
+
+
+
+/*section About*/
+
+.mac {
+	margin-top: 100px;
+	margin-right: -100px;
+}
+
+.head_main {
+	margin-top: 53px;
+	margin-right: -90px;
+	margin-left: -30px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	color: #4d5866;
+}
+
+.sentences {
+	width: 408px;
+	margin-top: 33px;
+
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #6c6c6c;
+}
+
+.points {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 16px;
+}
+
+.team {
+	height: 721px;
+	background-color: #070707;
+
+}
+
+.meet {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 44px;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.first_line {
+	border-color: #fcac45;
+	text-align: center;
+	width: 100px;
+	size: 10;
+	margin-bottom: 0;
+	margin-top: 29px;
+	padding-bottom: 0;
+}
+
+.second_line {
+	border-color: #fcac45;
+	text-align: center;
+	width: 68px;
+	size: 5;
+	padding-top: 10px;
+}
+
+.pics {
+	display: block;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.description_team {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 300;
+	color: #fff;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+/*section service*/
+
+.service {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.service_description {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 105px;
+}
+
+.service_icons {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+h4.srvc {
+	color: #111;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+p.srvc {
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 100px;
+}
+
+/*SECTION some_clients*/
+
+.some_clients {
+	background-color: #0b0b0b;
+	color: #fff;
+}
+
+.our_clients {
+	padding-top: 100px;
+}
+
+.logos {
+	margin-bottom: 100px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.logo {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+/*section OUR WORK*/
+.our_work {
+	height: 1240px;
+}
+
+h1.our_work {
+	color: #222222;
+}
+
+.filters p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #222222;
+	margin-right: 5px;
+}
+
+
+
+button {
+	border: 0;
+	background-color: #fff;
+	outline: none !important;
+	cursor: pointer;
+	font-weight: 400;
+}
+
+.liner {
+	margin-top: 15px;
+	margin-left: 3px;
+}
+
+.works {
+	margin-top: 50px;
+
+}
+
+.pics_1 {
+	margin-bottom: 30px;
+	margin-right: 80px;
+
+}
+
+.works .mix {
+	display: none;
+}
+
+.active {
+	font-weight: 700;
+}
+
+/*section TESTIMONIALS*/
+
+.testimonials {
+	background-color: #0b0b0b;
+
+}
+
+.testimonials h1 {
+	color: #fff;
+	padding-top: 100px;
+}
+
+.testimonials p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #e8e8e8;
+}
+
+p.author{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #b2b2b2;
+	margin-bottom: 70px;
+}
+
+.slider_testimonials {
+	margin-top: 100px;
+	bottom: 90px;
+}
+
+/*section CONTACT_US*/
+
+.contact_us h1 {
+	text-transform: uppercase;
+	
+}
+
+input.name, .email {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 30px;
+}
+
+textarea{
+	width: 100%;
+	height: 160px;
+	resize: none
+
+}
+
+.forms p {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.forms button {
+	background-color: #fcac45;
+	width: 170px;
+	height: 42px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 32px;
+	margin-bottom: 100px;
+}
+
+/*FOOTER*/
+footer {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #222;
+	height: 90px;
+}
+
+footer p {
+	font-size: 12px;
+	color: #b2b2b2;
+	margin-top: 43px;
+}
+
+footer .social_pics {
+	margin-top: 30px;
+	margin-right: 13px;
+}
